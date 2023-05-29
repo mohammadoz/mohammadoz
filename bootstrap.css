@@ -1,0 +1,8 @@
+#body {
+    direction: rtl;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.navbar {
+    box-shadow: 1px 2px 5px #ebebeb;
+}
