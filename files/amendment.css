@@ -1,0 +1,310 @@
+*{
+    color:rgb(255, 255, 255);
+font-family: "Tajawal",system-ui;
+}
+p{
+    color: #100f0f;
+}
+.tow{
+width:90%;
+/* margin:30px  */
+margin: 30px 42px 0 0;
+display: grid;
+grid-template-columns: 6fr 3fr;
+
+}
+.one1{
+background-color: white;
+
+}
+.t1{
+    display: flex;
+    position: relative;
+    width:100%;
+    border-bottom:1.5px solid rgb(43, 42, 42);
+    height:25px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+.power{
+    width:90%;
+}
+.jar{
+    width:100%;
+    display: flex;
+    position: relative;
+    height: auto;
+    margin: 20px 10px 0 0;
+    border-bottom: 1.5px solid black;
+    padding-bottom: 25px;
+}
+.pp11 span{
+   
+    color: rgb(46, 45, 45);
+    font-size: 18px;
+    font-weight: 900;
+    padding: 2px 8px;
+
+}
+.pp11 span:nth-child(1){
+background-color: rgb(163, 161, 161);
+}
+.pp11 span:nth-child(1){
+   font-size: 20px;
+    }
+.pp11 span:nth-child(3){
+    border:1.5px solid rgb(58, 57, 57);
+    
+    }
+    .hassan{
+      
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    justify-content: space-around;
+    width: 20%;
+    align-items: center;
+    }
+.hassanimg{
+    width: 15px;
+    height: 15px;
+    padding-left:25% ;
+}
+.hassanf{
+    color: black;
+    font-size: 16px;
+}
+.hassandiv{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: space-around;
+    cursor: pointer;
+}
+.ye{
+    display: flex;
+    justify-content: space-between;
+
+}
+.dh h2{
+    color: #323030;
+    font-size: 19px;
+}
+.dcl{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.yoyo{
+    display: flex;
+    align-items: center;
+}
+.lll{
+    display: flex;
+    margin: 10px;
+    align-items: center;
+}
+.dcl div p{
+  margin: 0 5px;
+}
+.boxx{
+    width:13px;
+    height:13px;
+border:2px solid grey;
+border-radius:5px ;
+margin: 0%;
+cursor: pointer;
+}
+.boxx1{
+    width:13px;
+    height:13px;
+border:2px solid grey;
+border-radius:5px ;
+margin: 0%;
+margin-left: 5px;
+cursor: pointer;
+}
+.finally{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.finally p{
+    font-weight: 700;
+    font-size: 15px;
+
+}
+.sure{
+    margin-top: 20px;
+    color:white;
+    background-color: #4e4c4c;
+    width:85%;
+    border-radius:5px;
+    text-align: center;
+    font-size:17px ;
+    cursor: pointer;
+    padding: 20px 0;
+    font-weight: 300;
+}
+/* //////////////// */
+.check{
+background:url('images/check.png');
+background-size: cover;
+
+}
+.tnt{
+    display: flex;
+   justify-content: end;
+   margin-top: 20px;
+}
+.tnt button{
+   
+    border: none;
+    color: black;
+    font-weight: 600;
+    background-color: #c7c2c2;
+    padding: 11px 60px;
+    margin: 10px 10px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 3px;
+}
+/* //////////pppppppppppppppppppppppppppppppp/////////////// */
+.pp1{
+    color: #100f0f;
+    font-weight: 900;
+    font-family: "Tajawal",system-ui;
+    font-size: 23px;
+}
+.t1 p{
+    position: absolute;
+    color:rgb(61, 59, 59);
+    font-family:"Tajawal",system-ui;
+    font-weight: 600;
+}
+.pp3{
+    left:34%;
+}
+.pp4{
+    left:17%;
+}
+.pp5{
+    left:0%;
+}
+.pp6{
+    font-size: 20px;
+    font-weight: bold;
+}
+.pp7,.pp8,.pp9{
+    font-size: 16px;
+    font-weight: 600;
+    color: #4e4c4c;
+    padding-top: 8px;
+}
+.pp10,.pp11,.pp12{
+position: absolute;
+text-align: center;
+}
+.pp10{
+    left:34%;
+}
+.pp11{
+    left:17%;
+}
+.pp12{
+    left:0%;
+}
+
+/* ///////////////////////////// */
+.cl1{
+    position: relative;
+}
+.cl1::before{
+left:0;
+    content: "التوصيل من 5 - 10 ايام";
+    position: absolute;
+    font-size: 11px;
+    color: black;
+    bottom: -76%;
+    font-weight: 600;
+
+}
+.ye2{
+display: grid;
+grid-template-columns: 3fr 3fr 3fr ;
+align-items: center;
+padding:10px 0 30px 0 ;
+}
+
+.taiz1,.taiz2,.taiz3{
+    position: relative;
+    height:90px;
+    cursor: pointer;
+    
+}
+
+.taiz1 h5{
+color:black;
+}
+.taiz1::before,.taiz2::before{
+content: "";
+position: absolute;
+width: 1px;
+background-color: #4e4c4c;
+height:100%;
+left:0;
+}
+.one2{
+border:1.5px solid black;
+height: fit-content;
+background-color: #ffffff;
+margin-top: 75px;
+padding-bottom: 25px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+#crazy{
+    font-weight: 200;
+    width: 100%;
+    color: rgb(253, 253, 253);
+    background-color: #100f0f;
+    padding: 10px 0;
+    text-align: center;
+}
+#delivery{
+    cursor: pointer;
+}
+.crazy2{
+margin-top:20px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #adadad;
+    width: 90%;
+padding-bottom: 10px;
+}
+.crazy2 div h4{
+    color:black;
+
+}
+#reet{
+    font-size: 15px;
+     font-weight: 500;
+     cursor: pointer;
+}
+#root{
+    color: black;
+    font-weight: 600;
+    padding: 15px;
+}
+#pop{
+    font-size: 23px;
+    font-weight: 600;
+    color: #4a4747;
+    margin: 30px 0 10px 0;
+}
+
+
+
